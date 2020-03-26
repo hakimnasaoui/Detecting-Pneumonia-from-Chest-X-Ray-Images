@@ -17,7 +17,7 @@ The dataset is organized into 3 folders (train, test, val) and contains subfolde
 - The val folder have 16 samples (NORMAL:8，PNEUMONIA:8).
 - The test folder have 624 samples (NORMAL:234，PNEUMONIA:390).
 
-*The valiadation set is only 16 samples which is not enough to fine-tune our model's hyperparameters*
+*The validation set is only 16 samples which is not enough to fine-tune our model's hyperparameters*
 
 ## Model  
 - We are using the **VGG16** model from the Keras.Applications library as the base model.
