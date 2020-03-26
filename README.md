@@ -24,5 +24,3 @@ The dataset is organized into 3 folders (train, test, val) and contains subfolde
 - Optimizer : RMSPROP 
 - Data Augmentation : The goal is to get rid of the class imbalance issues. Oversampling with data augmentation 
 - Dropout
-
-final accuracy : 81.25%
