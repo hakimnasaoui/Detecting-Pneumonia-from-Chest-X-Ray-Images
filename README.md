@@ -20,8 +20,17 @@ The dataset is organized into 3 folders (train, test, val) and contains subfolde
 *The validation set is only 16 samples which is not enough to fine-tune our model's hyperparameters*
 
 ## Model  
-- We are using the **VGG16** model from the Keras.Applications library as the base model.
-- We trained the whole network for 20 epochs
-- Optimizer : RMSPROP 
+- We are using the **VGG16** model from the **Keras.Applications** library as the base model.
+- We trained the whole network for 25 epochs
+- Batch size set to 16
+- Optimizer : **RMSPROP** 
 - Data Augmentation : The goal is to get rid of the class imbalance issues. Oversampling with data augmentation 
-- Dropout
+
+```
+augs = ImageDataGenerator(
+    rescale=1. / 255,
+    shear_range=0.2,
+    zoom_range=0.2,
+    horizontal_flip=True)
+```
+    
