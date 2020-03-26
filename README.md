@@ -18,7 +18,7 @@ The dataset is organized into 3 folders (train, test, val) and contains subfolde
 
 *The valiadation set is only 16 samples which is not enough to fine-tune our model's hyperparameters*
 
-## Model & Used Techniques 
+## Model  
 - We are using the **VGG16** model from the Keras.Applications library as the base model.
 - We trained the whole network for 20 epochs
 - Optimizer : RMSPROP 
